@@ -1,0 +1,1204 @@
+{
+  "version": "1.0",
+  "schema": "https://entitymap.org/spec/v1.0",
+  "publisher": {
+    "name": "ArcSite",
+    "url": "https://www.arcsite.com"
+  },
+  "generated": "2026-10-21T00:00:00Z",
+  "verificationStatus": "generator-draft",
+  "entities": [
+    {
+      "entityId": "e_001",
+      "@type": "SoftwareProduct",
+      "name": "ArcSite",
+      "description": "ArcSite is field service software for contractors that turns an on-site drawing into a bill of materials, a priced proposal, and a collected payment. Sold as a subscription (SaaS) and running on iOS, Android, and Windows, it started as a drawing tool in 2014 and now serves specialty contractors across 50+ industries.",
+      "relations": [
+        {
+          "predicate": "INSTANCE_OF",
+          "targetId": "e_002",
+          "targetName": "Field Estimating Software"
+        },
+        {
+          "predicate": "INCLUDES",
+          "targetId": "e_004",
+          "targetName": "On-site Drawings"
+        },
+        {
+          "predicate": "INCLUDES",
+          "targetId": "e_005",
+          "targetName": "AR Room Scanner"
+        },
+        {
+          "predicate": "INCLUDES",
+          "targetId": "e_006",
+          "targetName": "Topographical Drawing"
+        },
+        {
+          "predicate": "INCLUDES",
+          "targetId": "e_007",
+          "targetName": "Material Takeoffs"
+        },
+        {
+          "predicate": "INCLUDES",
+          "targetId": "e_010",
+          "targetName": "Estimates & Proposals"
+        },
+        {
+          "predicate": "INCLUDES",
+          "targetId": "e_012",
+          "targetName": "ArcSite Payments"
+        },
+        {
+          "predicate": "INCLUDES",
+          "targetId": "e_013",
+          "targetName": "ArcSite Plans"
+        },
+        {
+          "predicate": "INCLUDES",
+          "targetId": "e_019",
+          "targetName": "WDO/WDI Inspection Forms"
+        },
+        {
+          "predicate": "TARGETS",
+          "targetId": "e_020",
+          "targetName": "Specialty Contractors",
+          "confidence": "declared"
+        },
+        {
+          "predicate": "ENABLES",
+          "targetId": "e_003",
+          "targetName": "ArcSite Workflow"
+        }
+      ],
+      "hasChunks": [
+        {
+          "chunkId": "c_001",
+          "text": "We started as a drawing tool in 2014, but today, ArcSite is full field service software that handles your entire workflow. The drawing actually powers everything else. As you sketch or scan a job site, ArcSite automatically builds your material takeoff and pulls pricing straight from your product catalog. From there, you can export a professional, branded proposal and take credit card, ACH, or financing payments right on-site.",
+          "sourceUrl": "https://www.arcsite.com",
+          "pageTitle": "ArcSite | Drawing & Estimating Software for Contractors",
+          "publisher": "ArcSite",
+          "retrieved": "2026-10-21T00:00:00Z",
+          "contentType": "definition"
+        },
+        {
+          "chunkId": "c_002",
+          "text": "ArcSite is contractor software that covers the whole job: the on-site drawing, the bill of materials, the proposal, and the payment. It runs on iOS, Android, and Windows devices.",
+          "sourceUrl": "https://www.arcsite.com/features/drawing",
+          "pageTitle": "Site Plan Drawing Software for Contractors | ArcSite",
+          "publisher": "ArcSite",
+          "retrieved": "2026-10-21T00:00:00Z",
+          "contentType": "definition"
+        },
+        {
+          "chunkId": "c_003",
+          "text": "ArcSite is field service software that keeps the job going: drawings, bill of materials, proposals, and payments. From the first line to the last dollar, we help you put time back in your day so you can grow your business.",
+          "sourceUrl": "https://www.arcsite.com",
+          "pageTitle": "ArcSite | Drawing & Estimating Software for Contractors",
+          "publisher": "ArcSite",
+          "retrieved": "2026-10-21T00:00:00Z",
+          "contentType": "definition"
+        },
+        {
+          "chunkId": "c_076",
+          "text": "No, you do not have to sign a long-term contract. ArcSite operates on a subscription basis, offering the flexibility to cancel at any time without any commitment or obligation.",
+          "sourceUrl": "https://www.arcsite.com/pricing",
+          "pageTitle": "ArcSite Pricing & Plans | Mobile CAD & Estimating Software",
+          "publisher": "ArcSite",
+          "retrieved": "2026-10-21T00:00:00Z",
+          "contentType": "evidence"
+        }
+      ]
+    },
+    {
+      "entityId": "e_002",
+      "@type": "Concept",
+      "name": "Field Estimating Software",
+      "description": "The software category ArcSite places itself in: mobile tools that let contractors draw, price, and sell a job while still on-site, instead of re-entering field notes at the office.",
+      "relations": [],
+      "hasChunks": [
+        {
+          "chunkId": "c_004",
+          "text": "The field estimating software built to grow your contracting business",
+          "sourceUrl": "https://www.arcsite.com",
+          "pageTitle": "ArcSite | Drawing & Estimating Software for Contractors",
+          "publisher": "ArcSite",
+          "retrieved": "2026-10-21T00:00:00Z",
+          "contentType": "definition"
+        },
+        {
+          "chunkId": "c_005",
+          "text": "ArcSite is field service software that puts time back in your day: drawings, bill of materials, proposals, and payments.",
+          "sourceUrl": "https://www.arcsite.com",
+          "pageTitle": "ArcSite | Drawing & Estimating Software for Contractors",
+          "publisher": "ArcSite",
+          "retrieved": "2026-10-21T00:00:00Z",
+          "contentType": "definition"
+        }
+      ]
+    },
+    {
+      "entityId": "e_003",
+      "@type": "Methodology",
+      "name": "ArcSite Workflow",
+      "description": "ArcSite's end-to-end job workflow in which a single on-site drawing becomes the material takeoff, the takeoff becomes the proposal, and the signed proposal becomes the payment request, with no re-keying between steps.",
+      "relations": [
+        {
+          "predicate": "INCLUDES",
+          "targetId": "e_004",
+          "targetName": "On-site Drawings"
+        },
+        {
+          "predicate": "INCLUDES",
+          "targetId": "e_007",
+          "targetName": "Material Takeoffs"
+        },
+        {
+          "predicate": "INCLUDES",
+          "targetId": "e_010",
+          "targetName": "Estimates & Proposals"
+        },
+        {
+          "predicate": "INCLUDES",
+          "targetId": "e_012",
+          "targetName": "ArcSite Payments"
+        }
+      ],
+      "hasChunks": [
+        {
+          "chunkId": "c_006",
+          "text": "Payments is the last step in the ArcSite workflow, not another app. Your drawing becomes a takeoff, the takeoff becomes a proposal, and the signed proposal becomes a payment request. No re-keying amounts into a separate processor.",
+          "sourceUrl": "https://www.arcsite.com/features/payments",
+          "pageTitle": "Construction Payment Software for Contractors | ArcSite",
+          "publisher": "ArcSite",
+          "retrieved": "2026-10-21T00:00:00Z",
+          "contentType": "definition"
+        },
+        {
+          "chunkId": "c_007",
+          "text": "ArcSite is contractor software that starts with an on-site drawing and carries it all the way to a signed, paid job. Draw a site plan or floor plan by hand, from an AR room scan, or over a satellite image. As you add your products, ArcSite builds the bill of materials, the priced proposal, and the payment request from that same drawing, so nothing gets re-entered at the office.",
+          "sourceUrl": "https://www.arcsite.com/features/drawing",
+          "pageTitle": "Site Plan Drawing Software for Contractors | ArcSite",
+          "publisher": "ArcSite",
+          "retrieved": "2026-10-21T00:00:00Z",
+          "contentType": "procedure"
+        },
+        {
+          "chunkId": "c_008",
+          "text": "Your takeoff feeds everything that comes next. Explore the features that turn a bill of materials into a signed, paid job.",
+          "sourceUrl": "https://www.arcsite.com/features/takeoff-material-calculations",
+          "pageTitle": "Material Takeoff Software for Contractors | ArcSite",
+          "publisher": "ArcSite",
+          "retrieved": "2026-10-21T00:00:00Z",
+          "contentType": "procedure"
+        }
+      ]
+    },
+    {
+      "entityId": "e_004",
+      "@type": "SoftwareProduct",
+      "name": "On-site Drawings",
+      "alternateName": "Site Plan Drawing Software",
+      "description": "ArcSite's mobile drawing tool for to-scale site plans and floor plans on a tablet or phone, with no CAD training required. Drawings can start by hand, from an AR scan, a satellite map, or an imported PDF, work offline, and feed the takeoff and proposal directly.",
+      "relations": [
+        {
+          "predicate": "PRECEDES",
+          "targetId": "e_007",
+          "targetName": "Material Takeoffs"
+        },
+        {
+          "predicate": "ENABLES",
+          "targetId": "e_009",
+          "targetName": "Bill of Materials"
+        }
+      ],
+      "hasChunks": [
+        {
+          "chunkId": "c_009",
+          "text": "Draw CAD-quality site plans on a tablet or phone, with no CAD training. Every drawing becomes your bill of materials and proposal before you leave the site.",
+          "sourceUrl": "https://www.arcsite.com/features/drawing",
+          "pageTitle": "Site Plan Drawing Software for Contractors | ArcSite",
+          "publisher": "ArcSite",
+          "retrieved": "2026-10-21T00:00:00Z",
+          "contentType": "definition"
+        },
+        {
+          "chunkId": "c_010",
+          "text": "We make drawing really easy. We started as a drawing tool, so this is the thing we do really well. Think of ArcSite as digital graph paper. The drawing powers everything else. Sketch freehand, scan a room with LiDAR, or trace a satellite map, and the drawing becomes the job.",
+          "sourceUrl": "https://www.arcsite.com",
+          "pageTitle": "ArcSite | Drawing & Estimating Software for Contractors",
+          "publisher": "ArcSite",
+          "retrieved": "2026-10-21T00:00:00Z",
+          "contentType": "definition"
+        },
+        {
+          "chunkId": "c_011",
+          "text": "Sketch site plans and floor plans with CAD-level precision using your tablet and a finger. Pair a Bosch or Leica DISTO laser measure and every line updates to the exact measurement.",
+          "sourceUrl": "https://www.arcsite.com/features/drawing",
+          "pageTitle": "Site Plan Drawing Software for Contractors | ArcSite",
+          "publisher": "ArcSite",
+          "retrieved": "2026-10-21T00:00:00Z",
+          "contentType": "evidence"
+        },
+        {
+          "chunkId": "c_012",
+          "text": "Begin any exterior drawing on a satellite image that's auto-calibrated to scale. For larger sites, capture with Moasure and it lands in ArcSite ready to draw. Working from existing plans? Import a PDF and use ArcSite as your blueprint drawing app, drawing right over the plans to scale.",
+          "sourceUrl": "https://www.arcsite.com/features/drawing",
+          "pageTitle": "Site Plan Drawing Software for Contractors | ArcSite",
+          "publisher": "ArcSite",
+          "retrieved": "2026-10-21T00:00:00Z",
+          "contentType": "evidence"
+        },
+        {
+          "chunkId": "c_013",
+          "text": "Every drawing saves to the cloud and syncs across devices automatically. No signal on-site? Keep drawing. It syncs the moment you're back online.",
+          "sourceUrl": "https://www.arcsite.com",
+          "pageTitle": "ArcSite | Drawing & Estimating Software for Contractors",
+          "publisher": "ArcSite",
+          "retrieved": "2026-10-21T00:00:00Z",
+          "contentType": "evidence"
+        }
+      ]
+    },
+    {
+      "entityId": "e_005",
+      "@type": "SoftwareProduct",
+      "name": "AR Room Scanner",
+      "alternateName": "AR Scan",
+      "description": "ArcSite's LiDAR-based scanning feature for iPhone and iPad that captures walls, corners, openings, and exterior perimeters in minutes and turns them into a floor plan or site plan ready for estimating.",
+      "relations": [
+        {
+          "predicate": "IMPROVES",
+          "targetId": "e_004",
+          "targetName": "On-site Drawings",
+          "confidence": "declared",
+          "context": {
+            "condition": "on LiDAR-equipped Apple devices"
+          }
+        },
+        {
+          "predicate": "SUITED_FOR",
+          "targetId": "e_016",
+          "targetName": "Decks & Patios",
+          "confidence": "declared"
+        },
+        {
+          "predicate": "SUITED_FOR",
+          "targetId": "e_014",
+          "targetName": "Fencing",
+          "confidence": "declared"
+        },
+        {
+          "predicate": "SUITED_FOR",
+          "targetId": "e_018",
+          "targetName": "Basement Waterproofing",
+          "confidence": "declared"
+        }
+      ],
+      "hasChunks": [
+        {
+          "chunkId": "c_014",
+          "text": "Measuring by hand takes time. Scan a property in minutes, and get measurements accurate to within an inch. ArcSite's AR Scan uses your device's LiDAR technology to instantly capture dimensions like walls, corners, exterior facades, all without a tape measure.",
+          "sourceUrl": "https://www.arcsite.com",
+          "pageTitle": "ArcSite | Drawing & Estimating Software for Contractors",
+          "publisher": "ArcSite",
+          "retrieved": "2026-10-21T00:00:00Z",
+          "contentType": "definition"
+        },
+        {
+          "chunkId": "c_015",
+          "text": "The AR Room Scanner feature turns job site visits into productive sessions by scanning rooms quickly to capture dimensions, create floor plans, and identify work scope.",
+          "sourceUrl": "https://www.arcsite.com/features/drawing",
+          "pageTitle": "Site Plan Drawing Software for Contractors | ArcSite",
+          "publisher": "ArcSite",
+          "retrieved": "2026-10-21T00:00:00Z",
+          "contentType": "definition"
+        },
+        {
+          "chunkId": "c_016",
+          "text": "Scan house perimeters to detect windows and doors, while mapping out foundation lines for a clean site plan.",
+          "sourceUrl": "https://www.arcsite.com/industries/decks-patios",
+          "pageTitle": "Deck Design & Estimating Software | On-Site Plan Creation | ArcSite",
+          "publisher": "ArcSite",
+          "retrieved": "2026-10-21T00:00:00Z",
+          "contentType": "example"
+        },
+        {
+          "chunkId": "c_017",
+          "text": "Scan the yard to detect boundaries and obstacles, while mapping post spacing and gate placement for an accurate layout.",
+          "sourceUrl": "https://www.arcsite.com/industries/fencing",
+          "pageTitle": "Fencing Estimating Software | Property Line & Material Takeoffs | ArcSite",
+          "publisher": "ArcSite",
+          "retrieved": "2026-10-21T00:00:00Z",
+          "contentType": "example"
+        },
+        {
+          "chunkId": "c_018",
+          "text": "Scan exterior basement perimeters and basements to get a clean job plan in place to scope out what needs to be done.",
+          "sourceUrl": "https://www.arcsite.com/industries/basement-waterproofing",
+          "pageTitle": "Waterproofing Estimating Software and Waterproofing Takeoff Software",
+          "publisher": "ArcSite",
+          "retrieved": "2026-10-21T00:00:00Z",
+          "contentType": "example"
+        }
+      ]
+    },
+    {
+      "entityId": "e_006",
+      "@type": "SoftwareProduct",
+      "name": "Topographical Drawing",
+      "alternateName": "Topographic Drawings",
+      "description": "ArcSite feature that turns elevation points dropped into a drawing into contour lines and color-graded heatmaps, so contractors can see and show slope, grade, and drainage before pricing a job.",
+      "relations": [
+        {
+          "predicate": "DEPENDS_ON",
+          "targetId": "e_004",
+          "targetName": "On-site Drawings"
+        },
+        {
+          "predicate": "SUITED_FOR",
+          "targetId": "e_015",
+          "targetName": "Foundation Repair",
+          "confidence": "declared"
+        },
+        {
+          "predicate": "SUITED_FOR",
+          "targetId": "e_018",
+          "targetName": "Basement Waterproofing",
+          "confidence": "declared"
+        },
+        {
+          "predicate": "SUITED_FOR",
+          "targetId": "e_021",
+          "targetName": "Turf & Lawn",
+          "confidence": "declared"
+        }
+      ],
+      "hasChunks": [
+        {
+          "chunkId": "c_019",
+          "text": "You're at a job-site drawing and quoting out a property. Their site has hills and slopes that drive up the cost of the job. But the grade, the elevation changes, the real scope of the work... none of that is visible at the kitchen table.",
+          "sourceUrl": "https://www.arcsite.com",
+          "pageTitle": "ArcSite | Drawing & Estimating Software for Contractors",
+          "publisher": "ArcSite",
+          "retrieved": "2026-10-21T00:00:00Z",
+          "contentType": "definition"
+        },
+        {
+          "chunkId": "c_020",
+          "text": "Capture a small backyard or a full commercial site in one document, at scale. Need grade? Add contour lines and elevation heatmaps with topographical drawing, no survey equipment required.",
+          "sourceUrl": "https://www.arcsite.com/features/drawing",
+          "pageTitle": "Site Plan Drawing Software for Contractors | ArcSite",
+          "publisher": "ArcSite",
+          "retrieved": "2026-10-21T00:00:00Z",
+          "contentType": "evidence"
+        },
+        {
+          "chunkId": "c_021",
+          "text": "Show homeowners exactly where the ground has shifted before you start talking solutions. Drop elevation points into your drawing on-site and instantly get contour lines and a color-graded heatmap. When the problem is visible, high-ticket approval rates go up.",
+          "sourceUrl": "https://www.arcsite.com/industries/foundation-repair",
+          "pageTitle": "Foundation Repair Software | Structural Assessment & Estimating | ArcSite",
+          "publisher": "ArcSite",
+          "retrieved": "2026-10-21T00:00:00Z",
+          "contentType": "example"
+        },
+        {
+          "chunkId": "c_022",
+          "text": "Understand the full elevation picture around a property before scoping the job. Generate contour lines and color-graded heatmaps directly from your drawing to show homeowners how grade and drainage are contributing to their water problem. It gives clients the context they need to say yes.",
+          "sourceUrl": "https://www.arcsite.com/industries/basement-waterproofing",
+          "pageTitle": "Waterproofing Estimating Software and Waterproofing Takeoff Software",
+          "publisher": "ArcSite",
+          "retrieved": "2026-10-21T00:00:00Z",
+          "contentType": "example"
+        },
+        {
+          "chunkId": "c_023",
+          "text": "Capture slope and grade data directly in your turf layout drawing. Get automatic contour lines and color-graded fills so you can plan drainage, flag problem areas, and price accurately for sloped installs before material ever hits the ground.",
+          "sourceUrl": "https://www.arcsite.com/industries/turf",
+          "pageTitle": "Synthetic Turf Estimating Software | Lawn Design & Takeoffs | ArcSite",
+          "publisher": "ArcSite",
+          "retrieved": "2026-10-21T00:00:00Z",
+          "contentType": "example"
+        }
+      ]
+    },
+    {
+      "entityId": "e_007",
+      "@type": "SoftwareProduct",
+      "name": "Material Takeoffs",
+      "alternateName": "Takeoff",
+      "description": "ArcSite feature that counts and measures every product placed on a drawing and builds the bill of materials automatically from the contractor's own catalog, prices, and bundles, updating live as the drawing changes. Works on a blank canvas or over imported PDF plans.",
+      "relations": [
+        {
+          "predicate": "DEPENDS_ON",
+          "targetId": "e_004",
+          "targetName": "On-site Drawings"
+        },
+        {
+          "predicate": "PRECEDES",
+          "targetId": "e_010",
+          "targetName": "Estimates & Proposals"
+        },
+        {
+          "predicate": "RELATES_TO",
+          "targetId": "e_008",
+          "targetName": "Material Takeoff"
+        },
+        {
+          "predicate": "ACHIEVES",
+          "targetId": "e_009",
+          "targetName": "Bill of Materials",
+          "confidence": "declared"
+        },
+        {
+          "predicate": "SUITED_FOR",
+          "targetId": "e_014",
+          "targetName": "Fencing",
+          "confidence": "declared"
+        },
+        {
+          "predicate": "SUITED_FOR",
+          "targetId": "e_015",
+          "targetName": "Foundation Repair",
+          "confidence": "declared"
+        },
+        {
+          "predicate": "SUITED_FOR",
+          "targetId": "e_016",
+          "targetName": "Decks & Patios",
+          "confidence": "declared"
+        },
+        {
+          "predicate": "SUITED_FOR",
+          "targetId": "e_017",
+          "targetName": "Pest Control",
+          "confidence": "declared"
+        },
+        {
+          "predicate": "SUITED_FOR",
+          "targetId": "e_018",
+          "targetName": "Basement Waterproofing",
+          "confidence": "declared"
+        },
+        {
+          "predicate": "SUITED_FOR",
+          "targetId": "e_021",
+          "targetName": "Turf & Lawn",
+          "confidence": "declared"
+        }
+      ],
+      "hasChunks": [
+        {
+          "chunkId": "c_024",
+          "text": "Set your specific materials, prices, and product bundles within the system; as you draw your plan, costs are calculated in real-time, drastically reducing manual work and minimizing errors.",
+          "sourceUrl": "https://www.arcsite.com/features/takeoff-material-calculations",
+          "pageTitle": "Material Takeoff Software for Contractors | ArcSite",
+          "publisher": "ArcSite",
+          "retrieved": "2026-10-21T00:00:00Z",
+          "contentType": "definition"
+        },
+        {
+          "chunkId": "c_025",
+          "text": "As you draw the job, ArcSite counts and measures every product you place and builds the bill of materials automatically, using your own products and prices.",
+          "sourceUrl": "https://www.arcsite.com/features/takeoff-material-calculations",
+          "pageTitle": "Material Takeoff Software for Contractors | ArcSite",
+          "publisher": "ArcSite",
+          "retrieved": "2026-10-21T00:00:00Z",
+          "contentType": "definition"
+        },
+        {
+          "chunkId": "c_026",
+          "text": "The drawing is the bill of materials. As you draw and add products, the takeoff is automatically built for you. Every line you draw pulls real products, pricing, and quantities straight from your catalog. Swap a product, or change a section, and the takeoff updates with it.",
+          "sourceUrl": "https://www.arcsite.com",
+          "pageTitle": "ArcSite | Drawing & Estimating Software for Contractors",
+          "publisher": "ArcSite",
+          "retrieved": "2026-10-21T00:00:00Z",
+          "contentType": "evidence"
+        },
+        {
+          "chunkId": "c_027",
+          "text": "Draw the job from scratch on site, or import your existing PDF plans and draw right over them. Multi-page PDFs split into sheets automatically, and you can load a new version of the plans without losing your work.",
+          "sourceUrl": "https://www.arcsite.com/features/takeoff-material-calculations",
+          "pageTitle": "Material Takeoff Software for Contractors | ArcSite",
+          "publisher": "ArcSite",
+          "retrieved": "2026-10-21T00:00:00Z",
+          "contentType": "evidence"
+        },
+        {
+          "chunkId": "c_028",
+          "text": "Yes. Material lists and estimates update as you adjust the drawing, so you can make changes during a client consultation without starting over.",
+          "sourceUrl": "https://www.arcsite.com/features/takeoff-material-calculations",
+          "pageTitle": "Material Takeoff Software for Contractors | ArcSite",
+          "publisher": "ArcSite",
+          "retrieved": "2026-10-21T00:00:00Z",
+          "contentType": "evidence"
+        }
+      ]
+    },
+    {
+      "entityId": "e_008",
+      "@type": "Concept",
+      "name": "Material Takeoff",
+      "alternateName": "Construction Takeoff",
+      "description": "A list of every material a job needs, with quantities, measured from the project plans or drawing, used by contractors to order materials and price the job.",
+      "relations": [],
+      "hasChunks": [
+        {
+          "chunkId": "c_029",
+          "text": "A material takeoff is a list of every material a job needs, with quantities, measured from the project plans or drawing. Contractors use it to order materials and price the job accurately.",
+          "sourceUrl": "https://www.arcsite.com/features/takeoff-material-calculations",
+          "pageTitle": "Material Takeoff Software for Contractors | ArcSite",
+          "publisher": "ArcSite",
+          "retrieved": "2026-10-21T00:00:00Z",
+          "contentType": "definition"
+        }
+      ]
+    },
+    {
+      "entityId": "e_009",
+      "@type": "Concept",
+      "name": "Bill of Materials",
+      "alternateName": "BOM",
+      "description": "The itemized, priced material list ArcSite builds from a drawing, which exports directly into the client-facing proposal.",
+      "relations": [
+        {
+          "predicate": "PRECEDES",
+          "targetId": "e_010",
+          "targetName": "Estimates & Proposals"
+        }
+      ],
+      "hasChunks": [
+        {
+          "chunkId": "c_030",
+          "text": "Remember how we said the drawing powers everything else? Yep, proposals too. The bill of materials exports into a client-ready proposal for them to sign on the dotted line.",
+          "sourceUrl": "https://www.arcsite.com",
+          "pageTitle": "ArcSite | Drawing & Estimating Software for Contractors",
+          "publisher": "ArcSite",
+          "retrieved": "2026-10-21T00:00:00Z",
+          "contentType": "definition"
+        },
+        {
+          "chunkId": "c_031",
+          "text": "Yes. Import your PDF plans into ArcSite and draw right over them. The bill of materials builds as you place products. PDF import is available on the Pro plan and above.",
+          "sourceUrl": "https://www.arcsite.com/features/takeoff-material-calculations",
+          "pageTitle": "Material Takeoff Software for Contractors | ArcSite",
+          "publisher": "ArcSite",
+          "retrieved": "2026-10-21T00:00:00Z",
+          "contentType": "evidence"
+        }
+      ]
+    },
+    {
+      "entityId": "e_010",
+      "@type": "SoftwareProduct",
+      "name": "Estimates & Proposals",
+      "alternateName": "Construction Proposal Software",
+      "description": "ArcSite feature that consolidates site data, measurements, and the bill of materials into branded, priced, e-signable proposals, created on-site or refined by the office, with Good/Better/Best options and a proposal dashboard.",
+      "relations": [
+        {
+          "predicate": "INCLUDES",
+          "targetId": "e_011",
+          "targetName": "Good/Better/Best Pricing"
+        },
+        {
+          "predicate": "DEPENDS_ON",
+          "targetId": "e_007",
+          "targetName": "Material Takeoffs"
+        },
+        {
+          "predicate": "PRECEDES",
+          "targetId": "e_012",
+          "targetName": "ArcSite Payments"
+        }
+      ],
+      "hasChunks": [
+        {
+          "chunkId": "c_032",
+          "text": "Align field activity with operation. ArcSite consolidates site data, measurements, and scope details into branded, accurate proposals—generated on-site or from the office. No file transfers. No duplicate entry.",
+          "sourceUrl": "https://www.arcsite.com/features/estimates-and-proposals",
+          "pageTitle": "Construction Proposal Software | Construction Estimating Software",
+          "publisher": "ArcSite",
+          "retrieved": "2026-10-21T00:00:00Z",
+          "contentType": "definition"
+        },
+        {
+          "chunkId": "c_033",
+          "text": "As you draw your design plan, ArcSite works in the background to price the job, list materials, and generate a professional proposal. Eliminate the need for back-and-forth between different tools and present a compelling, accurate proposal to your client on the spot.",
+          "sourceUrl": "https://www.arcsite.com/features/estimates-and-proposals",
+          "pageTitle": "Construction Proposal Software | Construction Estimating Software",
+          "publisher": "ArcSite",
+          "retrieved": "2026-10-21T00:00:00Z",
+          "contentType": "evidence"
+        },
+        {
+          "chunkId": "c_034",
+          "text": "ArcSite supports proposal creation and editing from the web and app, giving teams a flexible way to review, adjust, and finalize quotes built in the field. Office staff can step in to fine-tune proposals seconds after a field drawing is saved, helping teams move faster, stay aligned, and deliver a more professional experience—still offering the capability of delivering a proposal before leaving the job site.",
+          "sourceUrl": "https://www.arcsite.com/features/estimates-and-proposals",
+          "pageTitle": "Construction Proposal Software | Construction Estimating Software",
+          "publisher": "ArcSite",
+          "retrieved": "2026-10-21T00:00:00Z",
+          "contentType": "evidence"
+        },
+        {
+          "chunkId": "c_035",
+          "text": "Stop chasing signatures in one app and payments in another. With ArcSite payments, homeowners can sign and pay their deposit during your site visit.",
+          "sourceUrl": "https://www.arcsite.com/features/estimates-and-proposals",
+          "pageTitle": "Construction Proposal Software | Construction Estimating Software",
+          "publisher": "ArcSite",
+          "retrieved": "2026-10-21T00:00:00Z",
+          "contentType": "evidence"
+        },
+        {
+          "chunkId": "c_036",
+          "text": "“The very first day that I was using ArcSite in the field, I was able to close a $42,000 job in about 45 minutes. That process before would take anywhere from two to three hours minimum.”",
+          "sourceUrl": "https://www.arcsite.com/features/estimates-and-proposals",
+          "pageTitle": "Construction Proposal Software | Construction Estimating Software",
+          "publisher": "ArcSite",
+          "retrieved": "2026-10-21T00:00:00Z",
+          "contentType": "statistic"
+        }
+      ]
+    },
+    {
+      "entityId": "e_011",
+      "@type": "Concept",
+      "name": "Good/Better/Best Pricing",
+      "alternateName": "GBB Pricing",
+      "description": "A proposal format that presents customers with tiered pricing options for the same job to create choice and upsell opportunities, available as a built-in option in ArcSite proposals.",
+      "relations": [],
+      "hasChunks": [
+        {
+          "chunkId": "c_037",
+          "text": "Maximize your revenue potential with ArcSite's Good/Better/Best proposal options. Easily convert your proposals into multiple pricing formats, providing customers with a variety of choices and upsell opportunities.",
+          "sourceUrl": "https://www.arcsite.com/features/estimates-and-proposals",
+          "pageTitle": "Construction Proposal Software | Construction Estimating Software",
+          "publisher": "ArcSite",
+          "retrieved": "2026-10-21T00:00:00Z",
+          "contentType": "definition"
+        }
+      ]
+    },
+    {
+      "entityId": "e_012",
+      "@type": "SoftwareProduct",
+      "name": "ArcSite Payments",
+      "alternateName": "Payments",
+      "description": "ArcSite's built-in payment collection that lets customers pay deposits, progress, and final payments by card or ACH directly from the signed proposal, with client financing options and automatic QuickBooks Online sync.",
+      "relations": [
+        {
+          "predicate": "DEPENDS_ON",
+          "targetId": "e_010",
+          "targetName": "Estimates & Proposals"
+        }
+      ],
+      "hasChunks": [
+        {
+          "chunkId": "c_038",
+          "text": "Collect deposits and final payments by card or ACH, right from the proposal your customer just signed.",
+          "sourceUrl": "https://www.arcsite.com/features/payments",
+          "pageTitle": "Construction Payment Software for Contractors | ArcSite",
+          "publisher": "ArcSite",
+          "retrieved": "2026-10-21T00:00:00Z",
+          "contentType": "definition"
+        },
+        {
+          "chunkId": "c_039",
+          "text": "Construction payment software lets contractors request and collect payments from customers online. ArcSite ties each payment to a signed proposal, so deposits, progress payments, and final payments stay linked to the job.",
+          "sourceUrl": "https://www.arcsite.com/features/payments",
+          "pageTitle": "Construction Payment Software for Contractors | ArcSite",
+          "publisher": "ArcSite",
+          "retrieved": "2026-10-21T00:00:00Z",
+          "contentType": "definition"
+        },
+        {
+          "chunkId": "c_040",
+          "text": "Proposals, eSignatures, invoices, and payments live in one platform, and invoices and payments sync to QuickBooks Online automatically.",
+          "sourceUrl": "https://www.arcsite.com/features/payments",
+          "pageTitle": "Construction Payment Software for Contractors | ArcSite",
+          "publisher": "ArcSite",
+          "retrieved": "2026-10-21T00:00:00Z",
+          "contentType": "evidence"
+        },
+        {
+          "chunkId": "c_041",
+          "text": "Take credit card payments, ACH, and offer financing. With partnerships with Sunlight Financial, Wisetack, and more, let your customer split up the payments, and sell more high-ticket jobs.",
+          "sourceUrl": "https://www.arcsite.com",
+          "pageTitle": "ArcSite | Drawing & Estimating Software for Contractors",
+          "publisher": "ArcSite",
+          "retrieved": "2026-10-21T00:00:00Z",
+          "contentType": "evidence"
+        },
+        {
+          "chunkId": "c_042",
+          "text": "Invoicing creates and sends the billing document. Payments is how your customer actually pays it, by card or ACH, online. Most contractors use both together.",
+          "sourceUrl": "https://www.arcsite.com/features/payments",
+          "pageTitle": "Construction Payment Software for Contractors | ArcSite",
+          "publisher": "ArcSite",
+          "retrieved": "2026-10-21T00:00:00Z",
+          "contentType": "definition"
+        }
+      ]
+    },
+    {
+      "entityId": "e_013",
+      "@type": "SoftwareProduct",
+      "name": "ArcSite Plans",
+      "alternateName": "ArcSite Pricing",
+      "description": "ArcSite's subscription tiers — Draw Basic, Draw Pro, Takeoff, Estimates, and custom Enterprise — each adding capabilities from mobile drawing up through takeoffs, proposals, payments, and multi-location management. All plans start with a 14-day trial and no long-term contract.",
+      "relations": [
+        {
+          "predicate": "INCLUDES",
+          "targetId": "e_004",
+          "targetName": "On-site Drawings"
+        },
+        {
+          "predicate": "INCLUDES",
+          "targetId": "e_005",
+          "targetName": "AR Room Scanner"
+        },
+        {
+          "predicate": "INCLUDES",
+          "targetId": "e_006",
+          "targetName": "Topographical Drawing"
+        },
+        {
+          "predicate": "INCLUDES",
+          "targetId": "e_007",
+          "targetName": "Material Takeoffs"
+        },
+        {
+          "predicate": "INCLUDES",
+          "targetId": "e_010",
+          "targetName": "Estimates & Proposals"
+        },
+        {
+          "predicate": "INCLUDES",
+          "targetId": "e_012",
+          "targetName": "ArcSite Payments"
+        }
+      ],
+      "hasChunks": [
+        {
+          "chunkId": "c_043",
+          "text": "Built for pros who inspect, sketch, quote, and close on-site. Each plan supports how work actually happens in the field.",
+          "sourceUrl": "https://www.arcsite.com/pricing",
+          "pageTitle": "ArcSite Pricing & Plans | Mobile CAD & Estimating Software",
+          "publisher": "ArcSite",
+          "retrieved": "2026-10-21T00:00:00Z",
+          "contentType": "definition"
+        },
+        {
+          "chunkId": "c_044",
+          "text": "ArcSite offers a free 14-day trial with full features. After that, choose a subscription plan; see pricing for current plans. Free drawing templates and CAD blocks are always available in the ArcSite template library.",
+          "sourceUrl": "https://www.arcsite.com/pricing",
+          "pageTitle": "ArcSite Pricing & Plans | Mobile CAD & Estimating Software",
+          "publisher": "ArcSite",
+          "retrieved": "2026-10-21T00:00:00Z",
+          "contentType": "evidence"
+        },
+        {
+          "chunkId": "c_045",
+          "text": "No, you do not have to sign a long-term contract. ArcSite operates on a subscription basis, offering the flexibility to cancel at any time without any commitment or obligation.",
+          "sourceUrl": "https://www.arcsite.com/pricing",
+          "pageTitle": "ArcSite Pricing & Plans | Mobile CAD & Estimating Software",
+          "publisher": "ArcSite",
+          "retrieved": "2026-10-21T00:00:00Z",
+          "contentType": "evidence"
+        },
+        {
+          "chunkId": "c_046",
+          "text": "Move beyond sketches and connect your drawings to material lists and job costs, helping teams prepare and price work with confidence",
+          "sourceUrl": "https://www.arcsite.com/pricing",
+          "pageTitle": "ArcSite Pricing & Plans | Mobile CAD & Estimating Software",
+          "publisher": "ArcSite",
+          "retrieved": "2026-10-21T00:00:00Z",
+          "contentType": "definition"
+        },
+        {
+          "chunkId": "c_047",
+          "text": "Built for pros who close in the field. Turn drawings into branded proposals, handle approvals, and links directly to payments",
+          "sourceUrl": "https://www.arcsite.com/pricing",
+          "pageTitle": "ArcSite Pricing & Plans | Mobile CAD & Estimating Software",
+          "publisher": "ArcSite",
+          "retrieved": "2026-10-21T00:00:00Z",
+          "contentType": "definition"
+        }
+      ]
+    },
+    {
+      "entityId": "e_014",
+      "@type": "Concept",
+      "name": "Fencing",
+      "alternateName": "Fence Estimating Software",
+      "description": "Fence contracting as ArcSite serves it: drawing property-line fence layouts on-site, auto-calculating panels, posts, and gates, and sending a priced fence proposal and crew sheet before leaving the property.",
+      "relations": [],
+      "hasChunks": [
+        {
+          "chunkId": "c_048",
+          "text": "ArcSite's fence estimator is built for professional fence contractors. Design precise layouts, generate detailed estimates, and manage an organized workflow from property line to proposal.",
+          "sourceUrl": "https://www.arcsite.com/industries/fencing",
+          "pageTitle": "Fencing Estimating Software | Property Line & Material Takeoffs | ArcSite",
+          "publisher": "ArcSite",
+          "retrieved": "2026-10-21T00:00:00Z",
+          "contentType": "definition"
+        },
+        {
+          "chunkId": "c_049",
+          "text": "Yes. Panel lengths, post locations, gate details, and materials are compiled automatically as you design.",
+          "sourceUrl": "https://www.arcsite.com/industries/fencing",
+          "pageTitle": "Fencing Estimating Software | Property Line & Material Takeoffs | ArcSite",
+          "publisher": "ArcSite",
+          "retrieved": "2026-10-21T00:00:00Z",
+          "contentType": "evidence"
+        },
+        {
+          "chunkId": "c_050",
+          "text": "ArcSite converts your fence drawings into precise material lists in seconds, helping you manage inventory effectively and avoid waste. With a built-in price book to adjust for fluctuating material costs, you can provide clients with accurate fence quotes while protecting your bottom line.",
+          "sourceUrl": "https://www.arcsite.com/industries/fencing",
+          "pageTitle": "Fencing Estimating Software | Property Line & Material Takeoffs | ArcSite",
+          "publisher": "ArcSite",
+          "retrieved": "2026-10-21T00:00:00Z",
+          "contentType": "evidence"
+        },
+        {
+          "chunkId": "c_051",
+          "text": "Generate detailed crew sheets that include drawings, material lists, and installation notes. Use ArcSite's fence software to streamline handoffs between sales and operations, reducing errors and keeping your team prepared for every job.",
+          "sourceUrl": "https://www.arcsite.com/industries/fencing",
+          "pageTitle": "Fencing Estimating Software | Property Line & Material Takeoffs | ArcSite",
+          "publisher": "ArcSite",
+          "retrieved": "2026-10-21T00:00:00Z",
+          "contentType": "evidence"
+        }
+      ]
+    },
+    {
+      "entityId": "e_015",
+      "@type": "Concept",
+      "name": "Foundation Repair",
+      "alternateName": "Foundation Repair Software",
+      "description": "Foundation repair contracting as ArcSite serves it: documenting crawlspace and foundation conditions with location-pinned photos, planning piers, footings, and leveling zones, and producing same-day repair estimates.",
+      "relations": [],
+      "hasChunks": [
+        {
+          "chunkId": "c_052",
+          "text": "Manage foundation repair projects with precise documentation, detailed estimates, and an organized workflow from assessment to sign-off. Document crawlspace and foundation conditions with photos pinned to the exact spot on your plan, so estimating and production always work from the same data.",
+          "sourceUrl": "https://www.arcsite.com/industries/foundation-repair",
+          "pageTitle": "Foundation Repair Software | Structural Assessment & Estimating | ArcSite",
+          "publisher": "ArcSite",
+          "retrieved": "2026-10-21T00:00:00Z",
+          "contentType": "definition"
+        },
+        {
+          "chunkId": "c_053",
+          "text": "Create detailed site plans, including piers, footings, and leveling zones",
+          "sourceUrl": "https://www.arcsite.com/industries/foundation-repair",
+          "pageTitle": "Foundation Repair Software | Structural Assessment & Estimating | ArcSite",
+          "publisher": "ArcSite",
+          "retrieved": "2026-10-21T00:00:00Z",
+          "contentType": "evidence"
+        },
+        {
+          "chunkId": "c_054",
+          "text": "Close deals faster with professional estimates created on-site. ArcSite integrates your material takeoffs with dynamic pricing for real-time quotes.",
+          "sourceUrl": "https://www.arcsite.com/industries/foundation-repair",
+          "pageTitle": "Foundation Repair Software | Structural Assessment & Estimating | ArcSite",
+          "publisher": "ArcSite",
+          "retrieved": "2026-10-21T00:00:00Z",
+          "contentType": "evidence"
+        },
+        {
+          "chunkId": "c_055",
+          "text": "“I am so accurate with all my drawings and measurements. Now, our engineers have all the information they need and can answer questions on the spot.”",
+          "sourceUrl": "https://www.arcsite.com/industries/foundation-repair",
+          "pageTitle": "Foundation Repair Software | Structural Assessment & Estimating | ArcSite",
+          "publisher": "ArcSite",
+          "retrieved": "2026-10-21T00:00:00Z",
+          "contentType": "example"
+        }
+      ]
+    },
+    {
+      "entityId": "e_016",
+      "@type": "Concept",
+      "name": "Decks & Patios",
+      "alternateName": "Deck Estimating Software",
+      "description": "Deck and patio contracting as ArcSite serves it: AR-scanning the house perimeter, designing multi-tier decks, stairs, and railings to scale, and auto-calculating boards, fasteners, and footings for an on-site proposal.",
+      "relations": [],
+      "hasChunks": [
+        {
+          "chunkId": "c_056",
+          "text": "Design and win more deck and patio jobs with precise layouts, detailed takeoffs, and an organized workflow from sketch to signed proposal. Scan house perimeters with the AR scanner to capture windows, doors, and foundation lines, then design multi-tier decks, stairs, and railings around them.",
+          "sourceUrl": "https://www.arcsite.com/industries/decks-patios",
+          "pageTitle": "Deck Design & Estimating Software | On-Site Plan Creation | ArcSite",
+          "publisher": "ArcSite",
+          "retrieved": "2026-10-21T00:00:00Z",
+          "contentType": "definition"
+        },
+        {
+          "chunkId": "c_057",
+          "text": "Automatically calculate boards, railings, fasteners, and footings",
+          "sourceUrl": "https://www.arcsite.com/industries/decks-patios",
+          "pageTitle": "Deck Design & Estimating Software | On-Site Plan Creation | ArcSite",
+          "publisher": "ArcSite",
+          "retrieved": "2026-10-21T00:00:00Z",
+          "contentType": "evidence"
+        },
+        {
+          "chunkId": "c_058",
+          "text": "Yes. ArcSite supports decks of any complexity, from simple backyard builds to multi-tier installations with stairs and custom railings.",
+          "sourceUrl": "https://www.arcsite.com/industries/decks-patios",
+          "pageTitle": "Deck Design & Estimating Software | On-Site Plan Creation | ArcSite",
+          "publisher": "ArcSite",
+          "retrieved": "2026-10-21T00:00:00Z",
+          "contentType": "evidence"
+        }
+      ]
+    },
+    {
+      "entityId": "e_017",
+      "@type": "Concept",
+      "name": "Pest Control",
+      "alternateName": "Pest Control Software",
+      "description": "Pest control as ArcSite serves it: mapping treatment zones, bait placements, and exclusion areas on-site, documenting infestations with annotated photos, and attaching state inspection forms to the proposal.",
+      "relations": [],
+      "hasChunks": [
+        {
+          "chunkId": "c_059",
+          "text": "Win more pest control jobs with precise site plans, detailed estimates, and an organized workflow from inspection to signed proposal. Map treatment zones, bait placements, and exclusion areas on-site, with integrated WDO/WDI state forms built into the workflow.",
+          "sourceUrl": "https://www.arcsite.com/industries/pest-control",
+          "pageTitle": "Pest Control Software | Property Inspection & Mapping Tools | ArcSite",
+          "publisher": "ArcSite",
+          "retrieved": "2026-10-21T00:00:00Z",
+          "contentType": "definition"
+        },
+        {
+          "chunkId": "c_060",
+          "text": "Use ArcSite's exterminator software for detailed mapping of termite infestations, aiding in effective treatment and documentation. The easy-to-use CAD drawing tools creates detailed drawings quickly, while offering the powerful quoting tools on-site with integrated pest control estimating software.",
+          "sourceUrl": "https://www.arcsite.com/industries/pest-control",
+          "pageTitle": "Pest Control Software | Property Inspection & Mapping Tools | ArcSite",
+          "publisher": "ArcSite",
+          "retrieved": "2026-10-21T00:00:00Z",
+          "contentType": "evidence"
+        },
+        {
+          "chunkId": "c_061",
+          "text": "Document pest issues with in-app photos, creating a comprehensive visual record for clients and team members.",
+          "sourceUrl": "https://www.arcsite.com/industries/pest-control",
+          "pageTitle": "Pest Control Software | Property Inspection & Mapping Tools | ArcSite",
+          "publisher": "ArcSite",
+          "retrieved": "2026-10-21T00:00:00Z",
+          "contentType": "evidence"
+        }
+      ]
+    },
+    {
+      "entityId": "e_018",
+      "@type": "Concept",
+      "name": "Basement Waterproofing",
+      "alternateName": "Waterproofing Estimating Software",
+      "description": "Basement waterproofing as ArcSite serves it: drawing drainage, sump pump, and dehumidifier layouts on-site, taking off vapor barriers and drainage systems from a custom product library, and delivering same-day proposals.",
+      "relations": [],
+      "hasChunks": [
+        {
+          "chunkId": "c_062",
+          "text": "Deliver precise designs, detailed estimates, and organized workflows with ArcSite's basement waterproofing software. From accurate on-site layouts, to seamless material summaries and instant proposals, our all-in-one platform helps you manage and win jobs with speed and precision.",
+          "sourceUrl": "https://www.arcsite.com/industries/basement-waterproofing",
+          "pageTitle": "Waterproofing Estimating Software and Waterproofing Takeoff Software",
+          "publisher": "ArcSite",
+          "retrieved": "2026-10-21T00:00:00Z",
+          "contentType": "definition"
+        },
+        {
+          "chunkId": "c_063",
+          "text": "Capture precise layouts and job site details, on-site, directly on your mobile device. ArcSite's basement waterproofing software simplifies everything from mapping drainage solutions to positioning sump pumps and dehumidifiers.",
+          "sourceUrl": "https://www.arcsite.com/industries/basement-waterproofing",
+          "pageTitle": "Waterproofing Estimating Software and Waterproofing Takeoff Software",
+          "publisher": "ArcSite",
+          "retrieved": "2026-10-21T00:00:00Z",
+          "contentType": "evidence"
+        },
+        {
+          "chunkId": "c_064",
+          "text": "Tailor ArcSite's basement waterproofing software to your specific waterproofing products and services, from vapor barriers to drainage systems. Automate takeoffs and proposals based on your unique offerings.",
+          "sourceUrl": "https://www.arcsite.com/industries/basement-waterproofing",
+          "pageTitle": "Waterproofing Estimating Software and Waterproofing Takeoff Software",
+          "publisher": "ArcSite",
+          "retrieved": "2026-10-21T00:00:00Z",
+          "contentType": "evidence"
+        }
+      ]
+    },
+    {
+      "entityId": "e_019",
+      "@type": "SoftwareProduct",
+      "name": "WDO/WDI Inspection Forms",
+      "alternateName": "NPMA-33 Forms",
+      "description": "State-specific pest inspection forms (including NPMA-33, WDI, and WDO) built into ArcSite, filled from drawing data and synced to the project record alongside the proposal.",
+      "relations": [
+        {
+          "predicate": "TARGETS",
+          "targetId": "e_017",
+          "targetName": "Pest Control",
+          "confidence": "declared"
+        },
+        {
+          "predicate": "DEPENDS_ON",
+          "targetId": "e_004",
+          "targetName": "On-site Drawings"
+        }
+      ],
+      "hasChunks": [
+        {
+          "chunkId": "c_065",
+          "text": "Yes. ArcSite integrates state-specific pest inspection forms like NPMA-33, WDI, and WDO directly into your drawing and proposal workflow.",
+          "sourceUrl": "https://www.arcsite.com/industries/pest-control",
+          "pageTitle": "Pest Control Software | Property Inspection & Mapping Tools | ArcSite",
+          "publisher": "ArcSite",
+          "retrieved": "2026-10-21T00:00:00Z",
+          "contentType": "definition"
+        },
+        {
+          "chunkId": "c_066",
+          "text": "Cut admin time in half. Inspection data flows directly from your drawing into the right fields",
+          "sourceUrl": "https://www.arcsite.com/industries/pest-control",
+          "pageTitle": "Pest Control Software | Property Inspection & Mapping Tools | ArcSite",
+          "publisher": "ArcSite",
+          "retrieved": "2026-10-21T00:00:00Z",
+          "contentType": "evidence"
+        },
+        {
+          "chunkId": "c_067",
+          "text": "Protect every job with clean documentation, syncing every form to the project record for instant compliance",
+          "sourceUrl": "https://www.arcsite.com/industries/pest-control",
+          "pageTitle": "Pest Control Software | Property Inspection & Mapping Tools | ArcSite",
+          "publisher": "ArcSite",
+          "retrieved": "2026-10-21T00:00:00Z",
+          "contentType": "evidence"
+        }
+      ]
+    },
+    {
+      "entityId": "e_020",
+      "@type": "Concept",
+      "name": "Specialty Contractors",
+      "alternateName": "Contractor Software for Every Industry",
+      "description": "The hub for the 50+ trades ArcSite serves — from fencing, decking, and foundation repair to pest control, waterproofing, turf, and inspection — each with a workflow from on-site drawing through estimate, proposal, and payment.",
+      "relations": [
+        {
+          "predicate": "COVERS",
+          "targetId": "e_014",
+          "targetName": "Fencing"
+        },
+        {
+          "predicate": "COVERS",
+          "targetId": "e_015",
+          "targetName": "Foundation Repair"
+        },
+        {
+          "predicate": "COVERS",
+          "targetId": "e_016",
+          "targetName": "Decks & Patios"
+        },
+        {
+          "predicate": "COVERS",
+          "targetId": "e_017",
+          "targetName": "Pest Control"
+        },
+        {
+          "predicate": "COVERS",
+          "targetId": "e_018",
+          "targetName": "Basement Waterproofing"
+        },
+        {
+          "predicate": "COVERS",
+          "targetId": "e_021",
+          "targetName": "Turf & Lawn"
+        }
+      ],
+      "hasChunks": [
+        {
+          "chunkId": "c_068",
+          "text": "Create detailed on-site drawings, material lists, estimates, and proposals, then take payment before you leave the job. One app, built for your trade.",
+          "sourceUrl": "https://www.arcsite.com/industry/specialty-contractors",
+          "pageTitle": "Contractor Software for Every Industry | ArcSite",
+          "publisher": "ArcSite",
+          "retrieved": "2026-10-21T00:00:00Z",
+          "contentType": "definition"
+        },
+        {
+          "chunkId": "c_069",
+          "text": "From fencing, decking, pest control, foundation repair, basement waterproofing, building inspection, and more, we're here to put time back in your day. So you can spend time growing your business.",
+          "sourceUrl": "https://www.arcsite.com",
+          "pageTitle": "ArcSite | Drawing & Estimating Software for Contractors",
+          "publisher": "ArcSite",
+          "retrieved": "2026-10-21T00:00:00Z",
+          "contentType": "evidence"
+        },
+        {
+          "chunkId": "c_070",
+          "text": "ArcSite improves your review process for your contracting team, fostering effective communication with both your team and clients. Utilize our intuitive contractor software platform to share detailed design updates, facilitating clear discussions and ensuring quality in every aspect of your work–no matter the specialty.",
+          "sourceUrl": "https://www.arcsite.com/industry/specialty-contractors",
+          "pageTitle": "Contractor Software for Every Industry | ArcSite",
+          "publisher": "ArcSite",
+          "retrieved": "2026-10-21T00:00:00Z",
+          "contentType": "evidence"
+        },
+        {
+          "chunkId": "c_071",
+          "text": "ArcSite is used by professionals across multiple industries including construction, architecture, engineering, and more. Its flexible and powerful features make it adaptable to various industry-specific requirements.",
+          "sourceUrl": "https://www.arcsite.com/industry/specialty-contractors",
+          "pageTitle": "Contractor Software for Every Industry | ArcSite",
+          "publisher": "ArcSite",
+          "retrieved": "2026-10-21T00:00:00Z",
+          "contentType": "evidence"
+        }
+      ]
+    },
+    {
+      "entityId": "e_021",
+      "@type": "Concept",
+      "name": "Turf & Lawn",
+      "alternateName": "Synthetic Turf & Lawn",
+      "description": "Synthetic turf and lawn installation as ArcSite serves it: defining turf areas on-site, calculating rolls, infill, and soil in product-specific units, mapping grade for drainage, and closing with an on-site proposal.",
+      "relations": [],
+      "hasChunks": [
+        {
+          "chunkId": "c_072",
+          "text": "Win more turf and lawn jobs with precise designs, detailed estimates, and an organized workflow from measurement to signed proposal. Define turf areas and calculate rolls, infill, and soil quantities by the pound, ton, or truckload as you draw the layout.",
+          "sourceUrl": "https://www.arcsite.com/industries/turf",
+          "pageTitle": "Synthetic Turf Estimating Software | Lawn Design & Takeoffs | ArcSite",
+          "publisher": "ArcSite",
+          "retrieved": "2026-10-21T00:00:00Z",
+          "contentType": "definition"
+        },
+        {
+          "chunkId": "c_073",
+          "text": "ArcSite's turf software simplifies material management, letting you calculate exact quantities for turf \"rolls\", sod, and other materials in seconds. With ArcSite’s customizable product library, you can track costs and quantities for any material in your workflow.",
+          "sourceUrl": "https://www.arcsite.com/industries/turf",
+          "pageTitle": "Synthetic Turf Estimating Software | Lawn Design & Takeoffs | ArcSite",
+          "publisher": "ArcSite",
+          "retrieved": "2026-10-21T00:00:00Z",
+          "contentType": "evidence"
+        },
+        {
+          "chunkId": "c_074",
+          "text": "Capture elevation changes across the yard so water drains properly, then plan seams and turf rolls with confidence.",
+          "sourceUrl": "https://www.arcsite.com/industries/turf",
+          "pageTitle": "Synthetic Turf Estimating Software | Lawn Design & Takeoffs | ArcSite",
+          "publisher": "ArcSite",
+          "retrieved": "2026-10-21T00:00:00Z",
+          "contentType": "evidence"
+        },
+        {
+          "chunkId": "c_075",
+          "text": "\"We increased our contract value from $10,000 to literally $18,500 that year. So it almost doubled our contract value just being able to include those other products at scale because of ArcSite.\"",
+          "sourceUrl": "https://www.arcsite.com/industries/turf",
+          "pageTitle": "Synthetic Turf Estimating Software | Lawn Design & Takeoffs | ArcSite",
+          "publisher": "ArcSite",
+          "retrieved": "2026-10-21T00:00:00Z",
+          "contentType": "statistic"
+        }
+      ]
+    }
+  ]
+}
