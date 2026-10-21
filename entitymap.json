@@ -52,7 +52,7 @@
         {
           "predicate": "INCLUDES",
           "targetId": "e_013",
-          "targetName": "ArcSite Plans"
+          "targetName": "ArcSite Pricing"
         },
         {
           "predicate": "INCLUDES",
@@ -742,8 +742,8 @@
     {
       "entityId": "e_013",
       "@type": "SoftwareProduct",
-      "name": "ArcSite Plans",
-      "alternateName": "ArcSite Pricing",
+      "name": "ArcSite Pricing",
+      "alternateName": "ArcSite Pricing & Plans",
       "description": "ArcSite's subscription tiers — Draw Basic, Draw Pro, Takeoff, Estimates, and custom Enterprise — each adding capabilities from mobile drawing up through takeoffs, proposals, payments, and multi-location management. All plans start with a 14-day trial and no long-term contract.",
       "relations": [
         {
